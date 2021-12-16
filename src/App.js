@@ -29,13 +29,12 @@ function App() {
               <Image onClick={onToggle}  alignSelf={'center'} src="rastaclaus.png" boxSize={['50', '88']}></Image>
             </Flex>
             <Flex maxWidth={'700px'}>
-              
               <Text mx={'10'} fontWeight={'bold'} fontSize={['lg', '3xl']}>
               The true Christmas spirit is putting others' happiness before our own, and finding you've never known such happiness. Make someone's day, be a Secret Rasta.
               </Text>
             </Flex>
             
-            <Button _focus={'none'} mx={['5%','30%']} color={'red.600'} rightIcon={<FcAndroidOs />}>
+            <Button mt='10' _focus={'none'} mx={['5%','30%']} color={'red.600'} rightIcon={<FcAndroidOs />}>
               Download Secret Rasta Now
             </Button>
             <Slide direction='top' in={isOpen} style={{ zIndex: 10 }}>
